@@ -7,7 +7,7 @@
     <title>Login Page</title>
 
     <!-- Style -->
-    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +29,9 @@
         <div class="container-label">Inscrever-se <span></span></div>
 
         <div class="container-icon">
-          <div class="circle"><i class="bi bi-chevron-right"></i></div>
+          <div class="circle">
+            <i class="bi bi-chevron-right"></i>
+          </div>
         </div>
 
         <div class="container-form">
@@ -42,12 +44,15 @@
               autofocus
             />
 
-            <label for="password">Senha</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Digite a sua senha"
-            />
+            <div class="container-input">
+              <label for="password">Senha</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Digite a sua senha"
+              />
+              <i id="reveal-password" class="bi bi-eye-slash"></i>
+            </div>
 
             <div class="change-password">
               Para alterar a senha <a href="javascript:void(0)">clique aqui</a>
@@ -58,5 +63,7 @@
         </div>
       </div>
     </div>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

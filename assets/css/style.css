@@ -109,7 +109,6 @@ body {
   border-bottom: 1px solid rgb(233, 157, 175);
   width: 100%;
 }
-
 .card .container-form input:focus {
   border-color: rgb(189, 50, 82);
   outline: 0;
@@ -119,6 +118,16 @@ body {
 }
 .card .container-form #email {
   margin-bottom: 1.75rem;
+}
+.card .container-form .container-input {
+  width: 100%;
+}
+.card .container-form .container-input i {
+  float: right;
+  position: relative;
+  margin-top: -24px;
+  margin-right: 4px;
+  cursor: pointer;
 }
 .card .container-form .change-password {
   font-size: 0.8rem;
